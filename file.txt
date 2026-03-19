@@ -1,0 +1,9 @@
+photo.jpg
+document.pdf
+music.mp3
+video.mp4
+notes.txt
+image.png
+archive.zip
+song.mp3
+movie.mp4
