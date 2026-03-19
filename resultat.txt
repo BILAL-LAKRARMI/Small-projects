@@ -1,16 +1,20 @@
 Images:
-  - bilal.png
-  - taha.png
+  - photo.jpg
+  - image.png
 
 Documents:
-  - fatima.txt
+  - document.pdf
+  - notes.txt
 
 Music:
-  - maroua.mp3
+  - music.mp3
+  - song.mp3
 
 Video:
-  - mohammed.mp4
+  - video.mp4
+  - movie.mp4
 
 Others:
-  - xxxx.hgf
+  - archive.zip
+
 
