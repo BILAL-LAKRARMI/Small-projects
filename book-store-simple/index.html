@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body style="overflow: hidden;">
+    <h3 class="text-center" style="font-weight: 600;">Bienvenue dans la librairie des livres de programmation</h3>
+    <hr>
+    <div class="container my-4">
+        <h5 class = "my-3">Choisis le livre que tu veux acheter : </h5>
+        <select class="form-select" id="select" onchange="afficher()"></select>
+        <p id="titre"></p>
+        <img id="image" width="250px" height="250px" style="border: 2px solid black;">
+        <hr>
+
+        <p id="prix"></p>
+        <h4 id="prixTotale"></h4>
+        <button onclick="ajouter()"class = "btn btn-success">Ajouter</button>
+        <button onclick="retirer()"class = "btn btn-danger my-3">Retirer</button>
+        <p id="panier"></p>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
